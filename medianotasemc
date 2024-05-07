@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+main () {
+  int cont;
+  float n1, n2, n3, m;
+  cont = 1;
+ 
+  while (cont <= 10) {
+ 
+    printf ("Digite 3 notas \n");
+    scanf ("%f%f%f", &n1, &n2, &n3);
+    m = (n1 + n2 + n3) /3;
+    printf ("Media: %.2f\n", m);
+    cont = cont + 1;
+ 
+  }
+  system ("PAUSE");
+}
